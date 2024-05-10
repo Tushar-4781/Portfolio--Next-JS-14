@@ -1,0 +1,74 @@
+body {
+  font-family: var(--font-poppins);
+}
+.ff-qs {
+  font-family: var(--font-poppins);
+}
+
+.ff-pp {
+  font-family: var(--font-quicksand);
+}
+
+.fs-reg {
+  font-size: 1rem;
+}
+
+.fs-md {
+  font-size: 1.143rem;
+}
+
+.place-middle {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.f-col {
+  flex-direction: column;
+}
+
+.justify-sb {
+  justify-content: space-between;
+}
+
+.justify-fs {
+  justify-content: flex-start;
+}
+
+.cu-pointer {
+  cursor: pointer;
+}
+
+.gap-8 {
+  gap: 8px;
+}
+.gap-12 {
+  gap: 12px;
+}
+.gap-24 {
+  gap: 24px;
+}

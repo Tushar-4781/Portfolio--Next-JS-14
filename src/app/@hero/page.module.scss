@@ -1,0 +1,62 @@
+.hero_card {
+  background: linear-gradient(to bottom right, #fff2c7, #ffedc8);
+  filter: drop-shadow(2px 2px 4px rgb(0, 0, 0, 0.15));
+  border-radius: 4px;
+}
+
+.profile_pic_container {
+  border-radius: 10px;
+  background: linear-gradient(to bottom, #ffe8a3, #e70faa);
+  width: 250px;
+  height: 415px;
+  margin-bottom: 4px;
+  img {
+    object-fit: cover;
+    border-radius: 10px;
+  }
+}
+
+.contact_btn {
+  padding: 10px;
+  gap: 8px;
+  background: #00ac7c;
+  border-radius: 4px;
+  color: rgb(255, 255, 255, 0.85);
+  font-weight: bold;
+  width: calc(100% - 15px);
+}
+
+.contact_btn:hover {
+  background: linear-gradient(to bottom, #85bfaf, #00ac7c);
+  color: #fff !important;
+}
+
+@media (min-width: 920px) {
+  #about_text {
+    max-width: 600px !important;
+  }
+}
+
+@media (max-width: 920px) {
+  .tags {
+    gap: 16px !important;
+    div {
+      width: 180px !important;
+    }
+  }
+  #about {
+    margin: 32px 0px !important;
+  }
+  #about > div {
+    // padding: 0 !important;
+  }
+
+  #about > div > div {
+    justify-content: center !important;
+  }
+
+  #about_text {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}

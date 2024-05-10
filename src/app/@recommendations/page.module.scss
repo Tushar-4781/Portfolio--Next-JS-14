@@ -1,0 +1,18 @@
+.container {
+  background: linear-gradient(to bottom, #fff2c7, #ffe8a3);
+  padding: 18px 0px 32px 0px;
+}
+
+.feedback_card {
+  align-items: flex-start;
+  padding: 18px;
+  border-radius: 8px;
+  filter: drop-shadow(2px 2px 4px rgb(0, 0, 0, 0.15));
+  background: linear-gradient(to bottom right, #ffe8a3, #fff2c7);
+}
+
+.feedback {
+  p {
+    line-height: 1.6;
+  }
+}
