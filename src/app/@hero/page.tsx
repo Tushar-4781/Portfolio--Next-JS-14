@@ -47,7 +47,10 @@ const page = () => {
           </Col>
           <Col id={styles.about_text} sm={18} xs={24}>
             <div className='d-flex f-col gap-12'>
-              <div className='d-flex justify-center w-100 gap-24'>
+              <div
+                id={styles.about_header}
+                className='d-flex justify-center w-100 gap-24'
+              >
                 <p
                   className='fw-600 ff-qs'
                   style={{ fontSize: '3rem', whiteSpace: 'nowrap' }}
@@ -114,6 +117,7 @@ const page = () => {
                 marginTop: 12,
                 padding: '16px 0px',
               }}
+              gutter={[0, 32]}
               className={`${styles.hero_card}`}
             >
               {[
@@ -127,7 +131,8 @@ const page = () => {
                 },
               ].map(({ labelFL, labelSL, value }) => (
                 <Col
-                  span={6}
+                  xs={12}
+                  sm={6}
                   className='place-middle f-col ff-pp gap-8'
                   key={`${labelFL} ${labelSL}`}
                 >

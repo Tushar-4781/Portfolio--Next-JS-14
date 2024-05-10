@@ -3,6 +3,7 @@ import { Row } from 'antd';
 import Product from '../_components/Product';
 import { products } from '../../../public/products';
 import Heading from '../_components/Heading';
+import styles from './page.module.scss';
 
 const page = () => {
   return (
@@ -22,7 +23,11 @@ const page = () => {
           PROJECTS
         </span>
       </Heading>
-      <Row gutter={[24, 48]} style={{ margin: 0, maxWidth: 1512 }}>
+      <Row
+        id={styles.feedback_container}
+        gutter={[24, 48]}
+        style={{ margin: 0, maxWidth: 1512 }}
+      >
         {products.slice(0, 4).map((product, index) => (
           <Product
             product={product}

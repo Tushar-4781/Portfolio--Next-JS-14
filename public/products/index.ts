@@ -52,7 +52,7 @@ export const products: TProduct[] = [
   {
     name: 'ZinZen',
     description:
-      'Horse’s Mouth is an experience sharing platform, where international university applicants and their parents can book 1-on-1 calls with students and alumni of the university from their target universities, in a hassle free and swift way.',
+      'ZinZen® is a stress-free life planning platform designed to help you live in the present moment with peace of mind. It ensures that your life aligns with your priorities and goals, helps you create realistic planning calendars, and prevents you from forgetting anything important.',
     width: 180,
     height: 144,
     link: links.zinzen,
