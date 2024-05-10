@@ -1,3 +1,6 @@
+* {
+  color: rgba($color: #110000, $alpha: 0.7);
+}
 a {
   text-decoration: none;
 }
@@ -26,6 +29,10 @@ p {
   max-width: 1512px;
   padding: 20px 32px;
   margin: auto;
+}
+
+#nav-links > button:hover {
+  color: #000;
 }
 
 @media (min-width: 1028px) {

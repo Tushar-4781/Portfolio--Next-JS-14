@@ -9,7 +9,7 @@ const Heading = ({
 }) => {
   return (
     <p
-      className='fw-600'
+      className='fw-600 c0'
       style={{ fontSize: '2rem', padding: '18px 0px', ...style }}
     >
       {children}

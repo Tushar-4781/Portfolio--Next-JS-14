@@ -59,8 +59,8 @@ const page = () => {
                   </Col>
                   <Col xxl={20} lg={19} md={20} sm={18} xs={24}>
                     <div className='d-flex f-col' style={{ gap: 4 }}>
-                      <p className='fw-600'>{name}</p>
-                      <p className='fw-500'>
+                      <p className='fw-600 c0'>{name}</p>
+                      <p className='fw-500 c0'>
                         <span>{`${role} ${org ? `, ` : ''}`}</span>
                         {org}
                       </p>

@@ -4,6 +4,7 @@ import './globals.scss';
 import './customize.scss';
 
 import Header from './_components/Header';
+import Footer from './_components/Footer';
 
 export const metadata: Metadata = {
   title: 'Tushar Inani - Portfolio',
@@ -51,6 +52,7 @@ export default function RootLayout({
         {experience}
         {recommendations}
         {products}
+        <Footer />
       </body>
     </html>
   );

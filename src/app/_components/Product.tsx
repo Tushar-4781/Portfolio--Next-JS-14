@@ -46,7 +46,7 @@ const Product = ({
             gap: 8,
           }}
         >
-          <div className='fw-600'>{name}</div>
+          <div className='fw-600 c0'>{name}</div>
           <p>{description}</p>
         </div>
         <Link
