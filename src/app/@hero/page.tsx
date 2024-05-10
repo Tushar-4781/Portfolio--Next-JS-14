@@ -9,7 +9,7 @@ import Link from 'next/link';
 const page = () => {
   return (
     <div
-      id={styles.about}
+      id={`${styles.about} about`}
       className='place-middle w-100'
       style={{ margin: '200px 0px' }}
     >
