@@ -5,7 +5,7 @@ import spacedex from './image 11-3.svg';
 import wfwa from './image 11-4.svg';
 import fluento from './image 12.svg';
 import booklol from './image 12-1.svg';
-import hm from './image 13.svg';
+import hmLogo from './image 13.svg';
 import { links } from '../constants';
 
 export const products: TProduct[] = [
@@ -13,8 +13,8 @@ export const products: TProduct[] = [
     name: "Horse's Mouth",
     description:
       'Horse’s Mouth is an experience sharing platform, where international university applicants and their parents can book 1-on-1 calls with students and alumni of the university from their target universities, in a hassle free and swift way.',
-    link: '',
-    image: hm,
+    link: links.hm,
+    image: hmLogo,
     status: 'Go to website',
     width: '100%',
     height: 200,
