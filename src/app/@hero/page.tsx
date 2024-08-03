@@ -1,5 +1,5 @@
 import { Col, Row } from 'antd';
-import profilePic from '../../../public/tushar_profilePic.jpg';
+import profilePic from '../../../public/tushar_profilePic.png';
 import Image from 'next/image';
 import styles from './page.module.scss';
 import { socialHandles } from '../../../public/mediaIcons';

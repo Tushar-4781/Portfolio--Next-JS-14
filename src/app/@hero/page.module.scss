@@ -6,13 +6,13 @@
 
 .profile_pic_container {
   border-radius: 10px;
-  background: linear-gradient(to bottom, #ffe8a3, #e70faa);
   width: 250px;
   height: 415px;
   margin-bottom: 4px;
   img {
     object-fit: cover;
     border-radius: 10px;
+    object-position: -42px 0;
   }
 }
 
