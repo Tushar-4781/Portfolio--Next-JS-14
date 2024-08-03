@@ -22,6 +22,6 @@ export const socialHandles = [
   {
     name: 'resume',
     icon: resumeIcon,
-    url: 'https://drive.google.com/u/0/uc?id=1n431n085s_FPfF6cQwh0G9Hv96JkNxOr&export=download',
+    url: 'https://drive.usercontent.google.com/uc?id=1CQ4e31PIGY5rzF2d8oaudIesqVD1mmEf&export=download',
   },
 ];
